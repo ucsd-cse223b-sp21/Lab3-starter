@@ -6,7 +6,7 @@ you are free to use any platform that supports Go environment, we recommend usin
 like `git`, `make` and `gcc` installed. For you convenience, we created a AWS AMI image pre-configured
 with proper tools which you can use to launch your AWS EC2 instance and start working right away.
 Follow the instructions [here](https://aws.amazon.com/premiumsupport/knowledge-center/launch-instance-custom-ami/) to create EC2 instance from custom image, and use our publically avaialble 
-image named `ucsd-223b-labs`.
+image named `ucsd-223b-sp20-labs`.
 
 ### Notes
 1. Detailed instructions on how to create an EC2 image and connect to it can be found [here](https://docs.aws.amazon.com/quickstarts/latest/vmlaunch/step-1-launch-instance.html).
