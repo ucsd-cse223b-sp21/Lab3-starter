@@ -48,6 +48,15 @@ $ make update
     $ make all
     $ make test-lab1
     ```
+3. For Lab 1, we made the whole test-suite we use for grading available with this repo (this will not be the case for later labs). 
+    To run these tests:
+    ```
+    cd src/tribgrd
+    make run
+    ```
+    The output provides a list of tests with their descriptions and their pass/fail status on your code. As long as your code passes all these tests,
+    you will get full credit for Lab 1.
+
 
 ## Submit 
 

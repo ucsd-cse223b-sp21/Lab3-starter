@@ -1,0 +1,31 @@
+.PHONY: all fmt tags doc rall test testv lc www
+
+all:
+	go install -v ./... trib/... triblab/... 
+
+rall:
+	go build -a ./...
+
+fmt:
+	gofmt -s -w -l .
+
+tags:
+	gotags `find . -name "*.go"` > tags
+
+test:
+	go test ./...
+
+testv:
+	go test -v ./...
+
+lc:
+	wc -l `find . -name "*.go"`
+
+doc:
+	godoc -http=:8000
+
+www:
+	trib-front -addr=localhost:8000 -init
+
+run:
+	bash test.sh
