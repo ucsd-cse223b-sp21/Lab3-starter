@@ -38,20 +38,3 @@ lc:
 doc:
 	godoc -http=:8000
 
-turnin-zip:
-	@ echo "=== Zipping committed files..."
-	git archive -o turnin.zip HEAD
-	chmod 600 turnin.zip
-
-turnin-lab1: turnin-zip
-	@ echo "=== Turning in Lab 1 for `whoami`"
-	cp turnin.zip /class/labs/turnin/lab1/`whoami`.zip
-
-turnin-lab2: turnin-zip
-	@ echo "=== Turning in Lab 2 for `whoami`"
-	cp turnin.zip /class/labs/turnin/lab2/`whoami`.zip
-
-turnin-lab3: turnin-zip
-	@ echo "=== Turning in Lab 3 for `whoami`"
-	cp turnin.zip /class/labs/turnin/lab3/`whoami`.zip
-

@@ -120,7 +120,7 @@ func (self *Server) Follow(who, whom string) error {
 	}
 
 	if len(following) >= trib.MaxFollowing {
-		return fmt.Errorf("user %q is following too many users")
+		return fmt.Errorf("user %q is following too many users", who)
 	}
 
 	uwho.follow(whom, uwhom)
