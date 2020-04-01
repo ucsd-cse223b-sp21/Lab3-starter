@@ -5,9 +5,8 @@ if ! [[ $GOPATH ]]; then
     exit 1
 fi
 
-# error messages
+# test descriptions
 declare -a messages=(
-    'your code compiles'
     'your code passes the basic test'
     'your rpc client does not return a nil list as an empty list'
     'your rpc client clears the list when it wants to return an empty list'
