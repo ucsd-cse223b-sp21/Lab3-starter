@@ -13,7 +13,7 @@ turnin:
 	git push origin master
 
 upstream:
-	git remote add upstream git@github.com:$(ORG)/$(STARTER).git
+	git remote add upstream https://github.com/$(ORG)/$(STARTER)
 
 update:
 	git pull upstream master
