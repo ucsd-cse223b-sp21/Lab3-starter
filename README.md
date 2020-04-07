@@ -14,9 +14,11 @@ Follow the instructions [here](./ec2-setup.md) to set up the EC2 instance.
 2. Do `git clone https://github.com/ucsd-cse223b-sp20/lab1-XXX` where `XXX` is your private repo.
 3. Go has expectations about environment variables. For convenience, you might set these variables in your `.bashrc` and/or `.bash_profile` files so that you don't have to execute the commands every time:
     ```
+    export PATH=$PATH:/usr/local/go/bin     # making sure go is on path
     export GOPATH=<path-to-repo>
     export PATH=$PATH:$GOPATH/bin
     ```
+NOTE: For AWS machines, only commands added to `.bash_profile` file seems to stick.
 
 ## Link to Upstream
 
