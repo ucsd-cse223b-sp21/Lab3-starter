@@ -1,7 +1,7 @@
 ######################################################
 ORG=ucsd-cse223b-sp20
-ASSN=lab1
-STARTER=lab1-starter
+ASSN=lab2
+STARTER=lab2-starter
 ######################################################
 
 check: 
