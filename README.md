@@ -36,7 +36,7 @@ You will be building on top of your work in Lab 2. Copy your solution for Lab 2 
     ```
     $ cd src/triblab
     $ make all
-    $ make test-lab2
+    $ make test-lab2 #won't test lab3 requirements
     ```
     Unlike Lab 1, you do not get a comprehensive test-suite. You are encouraged to write more tests by yourself.
     
