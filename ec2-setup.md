@@ -3,7 +3,7 @@
 # Steps to set up EC2 instance for Labs
 
 ## If you want to use UCSD AWS Student account with AWS credit:
-Go to: http://awsed.ucsd.edu/, and select class `CSE223B_SP20_A00` to sign in to get to AWS console. Since this is a restricted account, you will have very limited permissions so unless you follow proper steps,
+Go to: http://awsed.ucsd.edu/, and select class `CSE223B_SP201_A00` to sign in to get to AWS console. Since this is a restricted account, you will have very limited permissions so unless you follow proper steps,
 you are going to hit errors that usually do not make sense.
 1. Make sure you selected the Oregon (`us-west-2`) region. That seems to be the safe one for now.
 2. Locate our AMI.
