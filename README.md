@@ -26,7 +26,15 @@ $ make update
 
 ## Do the Assignment 
 
-You will be building on top of your work in Lab 2. Copy your solution for Lab 2 into this repository before you start working on Lab 3, and feel free to update your Lab 2 solution if necessary. Extensive modifications to you lab 2 code may be required to meet the fault tolerance requirements
+You will be building on top of your work in Lab 2. Choose a group member and push their lab2 code as the base for lab3. To do this set the remote url of the prior assignment and push. Feel free to update your Lab 2 solution if necessary. Extensive modifications to you lab 2 code may be required to meet the fault tolerance requirements
+
+ ```
+ cd chosen-lab2-directory
+ git set remote-url lab3-forked-repo.git
+ git push
+ ```
+See this [link](https://docs.github.com/en/github/getting-started-with-github/managing-remote-repositories) for debugging information on this task.
+
 
 1. Modify methods in `src/triblab/lab2.go` following the requirements posted on class website (links below). Feel free to rename the file lab3.go.
     - [Lab 3](https://cseweb.ucsd.edu/classes/sp21/cse223B-a/lab3.html)  
