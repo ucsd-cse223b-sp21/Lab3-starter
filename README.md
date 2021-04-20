@@ -28,7 +28,7 @@ $ make update
 
 You will be building on top of your work in Lab 2. Copy your solution for Lab 2 into this repository before you start working on Lab 3, and feel free to update your Lab 2 solution if necessary. Extensive modifications to you lab 2 code may be required to meet the fault tolerance requirements
 
-1. Implement the `"todo"` methods in `src/triblab/lab2.go` following the requirements posted on class website (links below).
+1. Modify methods in `src/triblab/lab2.go` following the requirements posted on class website (links below). Feel free to rename the file lab3.go.
     - [Lab 3](https://cseweb.ucsd.edu/classes/sp21/cse223B-a/lab3.html)  
     
 
