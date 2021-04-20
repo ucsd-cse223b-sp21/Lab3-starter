@@ -13,10 +13,3 @@ you are going to hit errors that usually do not make sense.
 5. In the VM, clone the Lab1 repo to your VM, you will likely need to install git: `apt install git`.
 6. Run the `aws-ubuntu-install.sh` script from the root directory of your lab 1 repository.
 7. Test your installation by running make. This should execute tests and fail with TODO painic errors
-
-
-## Notes
-1. [Launch EC2 instance from custom image](https://aws.amazon.com/premiumsupport/knowledge-center/launch-instance-custom-ami)
-2. [Instructions on how to create an EC2 image](https://docs.aws.amazon.com/quickstarts/latest/vmlaunch/step-1-launch-instance.html)
-3. Use free-tier eligible instance sizes like `t2.micro` which works fine for all labs (tried and tested). We recommend saving your AWS credits for your final open-ended projects.
-
